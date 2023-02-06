@@ -1,6 +1,7 @@
 body {
     font-family: helvetica, arial, sans-serif;
     margin: 2em;
+    margin-top:0px;
     color: #3D3D3D;
   }
   h1 {
@@ -15,6 +16,7 @@ body {
     font-weight: 400;
     font-style: bold;
   }
+
 
   video {
     display: block;
@@ -34,7 +36,7 @@ body {
     float: left;
     width: calc(100% - 20px);
     margin: 10px;
-    cursor: pointer;
+    /* cursor: pointer; */
   }
   .camView p {
     position: absolute;
@@ -66,3 +68,18 @@ body {
     cursor: pointer;
     background-color: rgb(255, 81, 0);
   }
+
+  .Repo{
+    color:#FF6F00;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  #Footer p,a{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    text-decoration: none;
+  }
+
+  
